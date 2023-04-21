@@ -134,10 +134,28 @@ form .page .field .gender-select{
     align-items: center;
     cursor: pointer;   
 }
-
 form .page .field .gender-select .radio__input{
-    height: 20px !important;
-    width: 20px !important;
+  height: 20px !important;
+  width: 20px !important;
+
+}
+
+form .page .field .bloodtype-select{
+  height: 100%;
+  width: 17%;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding-left: 15px;
+  font-size: 18px;
+
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;   
+}
+
+
+form .page .field .bloodtype-select .radio__input{
+    /* display: none; */
 
 }
 

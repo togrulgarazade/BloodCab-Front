@@ -184,6 +184,55 @@ form .page .field .bloodtype-select .radio__input{
 
 }
 
+form .page .clc{
+  display: inline !important;
+}
+
+form .page .field .clctext{
+  margin-top: 20px !important;
+  margin-bottom: 30px !important;
+  color: gray;
+}
+
+form .page .field .clctext2{
+  margin-top: 30px !important;
+  color: gray;
+}
+
+form .page .field .clcbutton{
+  width: 100%;
+  /* height: calc(100% + 5px); */
+  height: 30px;
+  border: 1px solid #d43f3f;
+  background: #d43f3f;
+  margin-top: -20px;
+  padding-top: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.5s ease;
+  text-decoration: none;
+}
+
+
+.allow_field{
+  margin-bottom: 90px !important;
+}
+
+.allow_form__group {
+	display: inline-flex;
+}
+
+.allow_form_input{
+	
+  margin-left: -45px;
+}
+
+
 
 form .page .field select{
   width: 100%;
@@ -306,15 +355,4 @@ form .page .btns button.next{
 
 
 
-
-.allow_form__group {
-	display: flex;
-	align-items: center;
-}
-
-.allow_form_input{
-	width: 1.5em;
-	height: 1.5em;
-	margin-right: 0.65rem;
-}
 
